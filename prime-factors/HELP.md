@@ -2,20 +2,6 @@
 
 ## Running the tests
 
-<<<<<<< HEAD
-To run the included *tests*, run the test file using the `pytest` module, replacing `{exercise_name}`:
-
-```bash
-$ python3 -m pytest {exercise_name}_test.py
-```
-
-Many IDE's and code editors have built-in support for using Pytest to run tests; check them out [here](https://github.com/exercism/python/blob/main/docs/TOOLS.md#editors-and-ides).
-
-For more information about running tests using `pytest`, checkout our [Python testing guide](https://github.com/exercism/python/blob/main/docs/TESTS.md#pytest).
-
-### Common pytest options
-
-=======
 We use [pytest][pytest: Getting Started Guide] as our website test runner.
 You will need to install `pytest` on your development machine if you want to run tests for the Python track locally.
 You should also install the following `pytest` plugins:
@@ -60,14 +46,10 @@ PS C:\Users\foobar> py -m pytest -o markers=task {exercise_test.py}
 
 ### Common options
 - `-o` : override default `pytest.ini` (_you can use this to avoid marker warnings_)
->>>>>>> master
 - `-v` : enable verbose output.
 - `-x` : stop running tests on first failure.
 - `--ff` : run failures from previous test before running other test cases.
 
-<<<<<<< HEAD
-For other options, see `python3 -m pytest -h`.
-=======
 For additional options, use `python3 -m pytest -h` or `py -m pytest -h`.
 
 
@@ -110,11 +92,10 @@ Some community-sourced options can be found on our [Python track tools page][Pyt
 [pytest: configuration file formats]: https://docs.pytest.org/en/6.2.x/customize.html#configuration-file-formats
 [pytest: marking test functions with attributes]: https://docs.pytest.org/en/6.2.x/mark.html#raising-errors-on-unknown-marks
 [pytest: working with custom markers]: https://docs.pytest.org/en/6.2.x/example/markers.html#working-with-custom-markers
->>>>>>> master
 
 ## Submitting your solution
 
-You can submit your solution using the `exercism submit word_count.py` command.
+You can submit your solution using the `exercism submit prime_factors.py` command.
 This command will upload your solution to the Exercism website and print the solution page's URL.
 
 It's possible to submit an incomplete solution which allows you to:
@@ -136,19 +117,12 @@ Below are some resources for getting help if you run into trouble:
 
 - [The PSF](https://www.python.org) hosts Python downloads, documentation, and community resources.
 - [Python Community on Discord](https://pythondiscord.com/) is a very helpful and active community.
-<<<<<<< HEAD
-- [#python on Libera.chat](https://www.python.org/community/irc/) this is where the cored developers for the language hang out and get work done.
-- [Exercism on Gitter](https://gitter.im/exercism/home) join the Python room for Python-related questions or problems.
-- [/r/learnpython/](https://www.reddit.com/r/learnpython/) is a subreddit designed for Python learners.
-- [Python Community Forums](https://discuss.python.org/)
-=======
 - [/r/learnpython/](https://www.reddit.com/r/learnpython/) is a subreddit designed for Python learners.
 - [#python on Libera.chat](https://www.python.org/community/irc/) this is where the core developers for the language hang out and get work done.
 - [**Exercism on Gitter**](https://gitter.im/exercism/home) join the Python room for Python-related questions or problems.
 - [Python Community Forums](https://discuss.python.org/)
 - [Free Code Camp Community Forums](https://forum.freecodecamp.org/)
 - [CodeNewbie Community Help Tag](https://community.codenewbie.org/t/help)
->>>>>>> master
 - [Pythontutor](http://pythontutor.com/) for stepping through small code snippets visually.
 
 
